@@ -1,0 +1,7 @@
+train: /home/catalin/proiect/welding_dataset/The Welding Defect Dataset/The Welding Defect Dataset/train/images
+val: /home/catalin/proiect/welding_dataset/The Welding Defect Dataset/The Welding Defect Dataset/valid/images
+test: /home/catalin/proiect/welding_dataset/The Welding Defect Dataset/The Welding Defect Dataset/test/images
+
+nc: 3
+names: ['Bad Weld', 'Good Weld', 'Defect']
+
