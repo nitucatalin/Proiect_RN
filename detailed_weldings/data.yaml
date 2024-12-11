@@ -1,0 +1,13 @@
+train: /home/catalin/proiect/detailed_weldings/train/images
+val: /home/catalin/proiect/detailed_weldings/valid/images
+test: /home/catalin/proiect/detailed_weldings/test/images
+
+nc: 4
+names: ['Crack', 'LoP-LoF', 'Pore', 'Slag']
+
+roboflow:
+  workspace: project-u4wny
+  project: demo_1-9tvhj
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project-u4wny/demo_1-9tvhj/dataset/2
