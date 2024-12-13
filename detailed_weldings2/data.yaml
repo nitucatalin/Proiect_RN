@@ -1,0 +1,13 @@
+train: /home/catalin/proiect/detailed_weldings2/train/images
+val: /home/catalin/proiect/detailed_weldings2/valid/images
+test: /home/catalin/proiect/detailed_weldings2/test/images
+
+nc: 4
+names: ['Crack', 'LoP-LoF', 'Pore', 'Slag']
+
+roboflow:
+  workspace: george-catalin-nitu
+  project: demo_1-9tvhj-viega
+  version: 1
+  license: CC BY 4.0
+  url: https://app.roboflow.com/george-catalin-nitu/demo_1-9tvhj-viega/1
